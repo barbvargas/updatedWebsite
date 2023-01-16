@@ -1,38 +1,42 @@
+@font-face {
+  font-family: 'abril-fatface';
+  src: url('/Users/barbaravargas/Desktop/updatedWebsite/barb-web/public/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+  
+}
+
+@font-face {
+  font-family: 'glacialFont';
+  src: url('/Users/barbaravargas/Desktop/updatedWebsite/barb-web/public/glacial-indifference/GlacialIndifference-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'glacialFontBold';
+  src: url('/Users/barbaravargas/Desktop/updatedWebsite/barb-web/public/glacial-indifference/GlacialIndifference-Bold.otf') format('truetype');
+}
+
+
 .App {
   text-align: center;
+  color: #302c30;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+svg {
+  padding:20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.abrilFont {
+  font-family: 'abril-fatface';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.glacialFont {
+  font-family: 'glacialFont';
 }
 
-.App-link {
-  color: #61dafb;
+.glacialBold {
+  font-family: 'glacialFontBold';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-item {
+  font-family: 'abril-fatface';
+
 }
