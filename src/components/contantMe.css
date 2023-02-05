@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'glacialFont';
+    src: url('/Users/barbaravargas/Desktop/updatedWebsite/barb-web/public/glacial-indifference/GlacialIndifference-Regular.otf') format('truetype');
+  }
+  
+
+.form-group {
+  font-family: 'glacialFont';
+  font-size: .70px;
+  margin: .5px;
+  padding:0px;
+  outline:none;
+  
+
+}
+.input-sm {
+  width: 12px;
+  height: 1.5px;
+  font-size: .6px;
+  padding: .5px;
+  border-width: 0px;
+  border-radius:0;
+  cursor: text;
+  caret-color: auto;
+  caret-shape: bar;
+
+ 
+
+
+}
+.input-sm:focus {
+  background: lightgray ;
+  outline:none;
+}
+
+.input-md:focus {
+  background: lightgray ;
+  outline:none;
+
+}
+
+.input-md {
+  width: 12px;
+  font-size: .70px;
+  padding: .5px;
+  border-width: 0px;
+  border-radius:0;
+ 
+}
+
+.no-spacing {
+  margin: 0;
+  padding:0;
+  font-size: .5px;
+}
+
+
+
+  .input[type=text]:focus, textarea:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #e7e2dd;
+    font-size: .5px;
+
+    }
+
+    
+     
+  
+  

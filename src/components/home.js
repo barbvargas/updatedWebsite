@@ -5,27 +5,29 @@ import { MdEmail } from 'react-icons/md';
 import { TfiGithub } from 'react-icons/tfi'; 
 import { Link } from 'react-router-dom';
 import {FaHome} from 'react-icons/fa';
-
 const Home = () => {
   return (
   <>
+ 
   <svg viewBox="0 0 48 26" preserveAspectRatio="xMidYMid meet" >
     
     <rect x="0px" y="0px" width="48px" height="26px" stroke="#a6a09b" stroke-width=".5px" fill = "#e7e2dd" />
     <rect x="0px" y="0px" width="48px" height="4px" fill = "#6e9277"/>
 
-    <g className ="navbar-item">
-      <Link to='/'>
-      <FaHome x={4} y= {1.5} size={1.2} color="#302c30"/>
+    <g className ="navbar-item ">
+      <Link className = " link-style" to='/'>
+      <FaHome className = "text-hover" x={6} y= {1.5} size={1.2} color="#ffd51e"/>
       </Link>
-      <Link to="/resume">
-      <text x="14px" y="2.5px" font-size="1.01px" fill="#302c30">Resume</text>
+
+      <Link  className="link-style" to="/resume">
+      <text className = "text-hover" x="14px" y="2.5px" font-size="1.01px" fill="#302c30">Resume</text>
       </Link>
-      <Link to="/projects">
-      <text x="26px" y="2.5px" font-size="1.01px" fill="#302c30">Projects</text>
+      
+      <Link  className="link-style" to="/projects">
+      <text className = "text-hover"  x="25px" y="2.5px" font-size="1.01px" fill="#302c30">Projects</text>
       </Link>
-      <Link to="/contactMe">
-       <text x="37px" y="2.5px" font-size="1.01px" fill="#302c30">Contact Me</text>
+      <Link  className="link-style" to="/contactMe">
+       <text className = "text-hover"  x="35px" y="2.5px" font-size="1.01px" fill="#302c30">Contact Me</text>
       </Link>
     </g>
 
@@ -39,9 +41,11 @@ const Home = () => {
      
     <g className="navbar-image">
     <a href="https://www.linkedin.com/in/barbaracvargas/">
-      <FaLinkedin x={5} y= {22} size={1} color="#302c30"/>
+      <FaLinkedin x={5.5} y= {22} size={1} color="#302c30"/>
     </a>
-      <MdEmail x={8} y= {21.9} size= {1.25} color="#302c30"/>  
+    <a href="/contactMe">
+      <MdEmail x={8} y= {21.9} size= {1.25} color="#302c30"/> 
+      </a> 
       <a href="https://github.com/barbvargas">
       <TfiGithub x={11} y= {22} size= {1.1} color="#302c30"/>   
       </a>
@@ -49,6 +53,7 @@ const Home = () => {
 
     <image x={28} y={6} width={18} height={18} xlinkHref={myImage}/>
     </svg>
+
   </>
   )
 };

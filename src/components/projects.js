@@ -13,20 +13,21 @@ const Projects = () => {
     <rect x="0px" y="0px" width="48px" height="26px" stroke="#a6a09b" stroke-width=".5px" fill = "#e7e2dd" />
     <rect x="0px" y="0px" width="48px" height="4px" fill = "#6e9277"/>
     <g className ="navbar-item">
-    <Link to='/'>
-      <FaHome x={4} y= {1.5} size={1.2} color="#302c30"/>
+      <Link to='/'>
+      <FaHome x={6} y= {1.5} size={1.2} color="#302c30"/>
       </Link>
-     <Link to="/resume">
-    <text x="14px" y="2.5px" font-size="1.01px" fill="#302c30">Resume</text>
-    </Link>
-    <Link to="/projects">
-    <text x="26px" y="2.5px" font-size="1.01px" fill="#e1c340">Projects</text>
-    </Link>
-    <Link to="/contactMe">
-     <text x="38px" y="2.5px" font-size="1.01px" fill="#302c30">Contact Me</text>
-    </Link>
-  
+      <Link to="/resume">
+      <text x="14px" y="2.5px" font-size="1.01px" fill="#302c30">Resume</text>
+      </Link>
+      <Link to="/projects">
+      <text x="25px" y="2.5px" font-size="1.01px" fill="#ffd51e">Projects</text>
+      </Link>
+      <Link to="/contactMe">
+       <text x="35px" y="2.5px" font-size="1.01px" fill="#302c30">Contact Me</text>
+      </Link>
     </g>
+  
+    
     
      <text className='abrilFont' x="1.5" y="6.5" text-anchor="left" font-size=".95" fill= "302c1e">PAA Pod</text>
 
@@ -61,14 +62,14 @@ const Projects = () => {
  </text>
 
     
-    <g className="navbar-image">
-     <FaLinkedin x={11} y= {21.5} size={1} color="#302c30"/>
-    </g>
-    <g className="navbar-image">
-    <MdEmail x={14} y= {21.4} size= {1.25} color="#302c30"/>   
-    </g>
-    <g className="navbar-image">
-    <TfiGithub x={17} y= {21.5} size= {1.1} color="#302c30"/>   
+ <g className="navbar-image">
+    <a href="https://www.linkedin.com/in/barbaracvargas/">
+      <FaLinkedin x={5} y= {22} size={1} color="#302c30"/>
+    </a>
+      <MdEmail x={8} y= {21.9} size= {1.25} color="#302c30"/>  
+      <a href="https://github.com/barbvargas">
+      <TfiGithub x={11} y= {22} size= {1.1} color="#302c30"/>   
+      </a>
     </g> 
 
     </svg>

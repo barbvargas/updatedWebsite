@@ -40,3 +40,11 @@ svg {
   font-family: 'abril-fatface';
 
 }
+.text-hover:hover {
+  fill:#ffd51e;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
